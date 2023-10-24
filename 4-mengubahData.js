@@ -20,3 +20,6 @@ let data = {
   console.log(data1)
 
   // console.log(data)
+  const {street, city} = data.address
+
+  console.log(city, street)
