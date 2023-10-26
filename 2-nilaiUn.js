@@ -12,10 +12,10 @@ const num = "number"
 
 if(typeof bahasaIndonesia != num || typeof mtk != num || typeof bahasaInggris != num || typeof ipa != num){
   console.log("tolong masukkan angka")
-}else if (mtk <= 0 || bahasaIndonesia <= 0 || bahasaInggris <= 0 || ipa <= 0){
+}else if (mtk < 0 || bahasaIndonesia <= 0 || bahasaInggris <= 0 || ipa <= 0){
   console.log("angka harus lebih besar dari 0")
 }else if (mtk > 100 || bahasaIndonesia > 100 || bahasaInggris > 100 || ipa > 100){
-  console.log("angka harus lebih kecil dari 10s0")
+  console.log("angka harus lebih kecil dari 100")
 }else{
   sum =  mtk + bahasaIndonesia + bahasaInggris + ipa
   average = sum/4
